@@ -1,0 +1,21 @@
+.task {
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #e0d4ff;
+    color: #372271;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task--done {
+    background: #97e2b6;
+    color: #096b3e;
+}
+
+.task__desc {
+    opacity: 0.5;
+    margin-left: 10px;
+}
